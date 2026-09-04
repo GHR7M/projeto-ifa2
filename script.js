@@ -255,14 +255,14 @@ function trocarImagem(escolha) {
     const imagemnova=document.getElementById('imagemPrincipal');
     switch(escolha){
         case "1":
-          urlNova = 'fases da lua.jpeg';
+          urlNova = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIO8wpToEyimkKKWGxcggxb6rQKeWHxlCmtjBfuX4LEA&s=10';
           textoprincipal.innerText="fases da lua";
-          texto.innerText="São as diferentes formas que o satélite natural aparenta ter visto da Terra, mudando conforme a sua posição em relação ao Sol e ao nosso planeta. São elas: Lua Nova, Quarto Crescente, Lua Cheia e Quarto Minguante"
+          texto.innerText= "São as diferentes formas que o satélite natural aparenta ter visto da Terra, mudando conforme a sua posição em relação ao Sol e ao nosso planeta. São elas: Lua Nova, Quarto Crescente, Lua Cheia e Quarto Minguante"
           break;
         case "2":
-          urlNova = 'lua nova.jpeg';
+          urlNova = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScYz_Bh_du-kJAc_QcVEC9kIJo8lW4boOnKZYQfFg_4lFIjrqI';
           textoprincipal.innerText="Lua Nova ";
-          texto.innerText="Lua Nova: A Lua fica entre a Terra e o Sol. O lado iluminado está virado para o lado oposto, então a Lua fica escura e quase invisível.";
+          texto.innerText= "Lua Nova: A Lua fica entre a Terra e o Sol. O lado iluminado está virado para o lado oposto, então a Lua fica escura e quase invisível.";
           descrevefigura.innerText="imagem da lua nova ";
           break;
         case "3":
