@@ -256,8 +256,9 @@ function trocarImagem(escolha) {
     switch(escolha){
         case "1":
           urlNova = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIO8wpToEyimkKKWGxcggxb6rQKeWHxlCmtjBfuX4LEA&s=10';
-          textoprincipal.innerText="fases da lua";
+          textoprincipal.innerText= "fases da lua";
           texto.innerText= "São as diferentes formas que o satélite natural aparenta ter visto da Terra, mudando conforme a sua posição em relação ao Sol e ao nosso planeta. São elas: Lua Nova, Quarto Crescente, Lua Cheia e Quarto Minguante"
+          descrevefigura.innerText= "fase da lua ";
           break;
         case "2":
           urlNova = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScYz_Bh_du-kJAc_QcVEC9kIJo8lW4boOnKZYQfFg_4lFIjrqI';
